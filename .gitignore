@@ -1,0 +1,13 @@
+__pycache__/
+*.egg-info/
+.venv/
+.pytest_cache/
+build/
+dist/
+openbsl-viewer/
+exports/
+site/
+# Recordings are people's health data: never commit them
+*.acq
+*-L[0-9][0-9]
+src/openbsl/viewer/data.js
